@@ -1,0 +1,74 @@
+<html>
+<head>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+	.review-div {
+		border: 1px solid #dde4ed;
+		padding: 5px 8px 8px;
+		border-left-width: 2px;
+		margin-right: 1px;
+		font-family: 'Open Sans';
+	}
+	.review-div>.name {
+		display: block;
+		color: #999;
+	}
+	.time {
+	    display: block;
+	    font-size: 11px;
+	    font-weight: bold;
+	    color: #666;
+	    float: right;
+	    position: static;
+	    right: 25px;
+	    top: 5px;
+    }
+	</style>
+</head>
+<body>
+<div class="row" style="height:100%; width:100%">
+	<div class="row" style="height:70%">
+		<div class="col-sm-8" style="background-color:blue; height:100%; padding:0px;">
+			<iframe width="100%" height="100%" frameborder='0' scrolling='no' src='http://docs.google.com/viewer?url=http://thl.s3.amazonaws.com/books/featured/collectionhorsetrainingtips.pdf&embedded=true'></iframe>
+		</div>
+		<div class="col-sm-4" style="height:100%; overflow-y: auto; padding: 10px;">	
+			<div class="review-div">		
+				<div class="time">
+					<span class="black">
+						2015/08/10 06:13:57
+					</span>
+				</div>
+				<div class="name">
+					<p style="color:black;">MSAA(cloude.lee@)</p>
+				</div>
+				<div class="text">
+					<p style="color:black;">Example Review</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row" style="height:30%">
+		<div class="col-sm-8" style="background-color:skyblue; height:100%">
+		
+		</div>
+		<div class="col-sm-4" style="height:100%;">
+			<form>
+				<div class="row">
+				    <div class="form-group col-sm-9">
+				    	<label for="createdBy" class="col-sm-3">ID</label>
+				    	<input class="col-sm-9" id="created-by" name="createdBy" placeholder="Insert your Id"/>
+				    </div>    
+			    	<button type="submit" class="btn btn-sm btn-default col-sm-3">Submit</button>
+			    </div>
+			    <div class="row">
+				    <div class="form-group">
+					    <label for="content">contents</label>
+					    <textarea class="form-control" id="content" name="content" placeholder="Insert Contents"></textarea>
+				    </div>
+			    </div>
+			</form>	
+		</div>
+	</div>
+</div>
+</body>
+</html>
